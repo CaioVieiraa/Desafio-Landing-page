@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+.top-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(48, 48, 48, 1);
+    width: 100%;
+    height: 300px;
+    
+}
+
+.text-topmenu{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 50px;
+
+}
+
+.text-topmenu p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.painel{
+    width: 100%;
+    height: 170px;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(249, 249, 249, 1);
+
+    
+}
+
+.info-painel{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.secaoimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-img p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#editimg{
+    width: 300px;
+    height: 400px;
+}
+
+.text{
+    display: flex;
+    justify-content:flex-start ;
+    flex-direction: column;
+    margin-right: 400px;
+}
+
+.secaoform{
+    background-color: rgba(48, 48, 48, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#text-form{
+    margin: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+       
+    
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    margin: 25px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+button{
+    background: rgba(192, 114, 18, 1);
+    color:  rgba(255, 255, 255, 1);
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgba(192, 114, 18, 1);
+    color:  rgba(255, 255, 255, 1);
+    transform: translateY(-7px);
+    transition-duration: 3ms;
+    box-shadow: 0px 10px 15px rgba(87, 55, 16, 0.555);
+}
